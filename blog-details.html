@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Details | LM Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo"><span>LM</span> ACADEMY</a>
+      <button class="menu-toggle">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="course-grid.html">Courses</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog-details.html" class="active">Blog</a></li>
+        <li><a href="contact.html" class="btn btn-secondary">Apply Now</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1>Academic Insights & News</h1>
+      <div class="breadcrumb"><a href="index.html">Home</a> &bull; Blog Details</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="display:grid; grid-template-columns: 2fr 1fr; gap: 45px;">
+      
+      <!-- Main Article -->
+      <article>
+        <div class="card-img" style="height: 320px; border-radius: 12px; margin-bottom: 25px;">
+          The Future of Project-Based Education
+        </div>
+        <span class="section-subtitle">EDUCATION & INNOVATION &bull; NOV 2026</span>
+        <h2 style="font-size: 2rem; margin: 12px 0 20px;">Why Hands-On Execution Outperforms Passive Learning in Modern Careers</h2>
+        
+        <p style="margin-bottom: 18px; color: var(--text-muted);">
+          In rapidly evolving fields like software engineering and brand design, memorizing static textbooks is no longer sufficient. Employers look for evidence of problem-solving, adaptability, and shipped work.
+        </p>
+        <blockquote style="border-left: 5px solid var(--secondary-color); background: var(--light-bg); padding: 20px 25px; margin: 25px 0; font-family: 'Montserrat', sans-serif; font-weight: 600; color: var(--primary-color);">
+          "True mastery happens when learners move from reading about systems to inventing and making them happen."
+        </blockquote>
+        <p style="margin-bottom: 18px; color: var(--text-muted);">
+          At LM Academy, every module concludes with a live build sprint. Students collaborate in cross-functional teams—designers working alongside engineers and product strategists—mirroring real industry workflows from day one.
+        </p>
+
+        <!-- Comment Form -->
+        <div style="margin-top: 45px; padding-top: 30px; border-top: 1px solid var(--border-color);">
+          <h3 style="margin-bottom: 18px;">Leave a Reflection</h3>
+          <form class="js-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="4" placeholder="Share your thoughts..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Post Comment</button>
+            <p class="form-status"></p>
+          </form>
+        </div>
+      </article>
+
+      <!-- Sidebar -->
+      <aside>
+        <div class="card" style="padding: 25px; margin-bottom: 25px;">
+          <h3 style="margin-bottom: 15px;">Recent Articles</h3>
+          <ul style="line-height: 2;">
+            <li><a href="blog-details.html">&bull; Designing Accessible Color Systems</a></li>
+            <li><a href="blog-details.html">&bull; 5 Portfolio Mistakes to Avoid</a></li>
+            <li><a href="blog-details.html">&bull; Preparing for Technical Interviews</a></li>
+          </ul>
+        </div>
+
+        <div style="background: var(--primary-color); color: var(--white); padding: 30px; border-radius: 12px; border-top: 5px solid var(--secondary-color);">
+          <h3 style="color: var(--secondary-color); margin-bottom: 10px;">Ready to Start?</h3>
+          <p style="font-size: 0.9rem; margin-bottom: 20px;">Download the 2026 LM Academy course catalog and scholarship guide.</p>
+          <a href="contact.html" class="btn btn-secondary" style="width: 100%; text-align: center;">Apply Today</a>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">&copy; 2026 LM Academy. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

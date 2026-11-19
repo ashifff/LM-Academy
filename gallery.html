@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | LM Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo"><span>LM</span> ACADEMY</a>
+      <button class="menu-toggle">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="course-grid.html">Courses</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="blog-details.html">Blog</a></li>
+        <li><a href="contact.html" class="btn btn-secondary">Apply Now</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1>Campus & Studio Gallery</h1>
+      <div class="breadcrumb"><a href="index.html">Home</a> &bull; Gallery</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Moments</button>
+        <button class="filter-btn" data-filter="campus">Campus Facilities</button>
+        <button class="filter-btn" data-filter="workshops">Workshops</button>
+        <button class="filter-btn" data-filter="graduation">Graduation</button>
+      </div>
+
+      <div class="grid-3">
+        <div class="card filter-item" data-category="campus">
+          <div class="card-img" style="height:240px;">Innovation Design Studio</div>
+          <div class="card-body">
+            <h3>West Wing Design Lab</h3>
+            <p>Collaborative workspaces equipped with dual-display workstations.</p>
+          </div>
+        </div>
+
+        <div class="card filter-item" data-category="workshops">
+          <div class="card-img" style="height:240px; background:#6b202f;">Annual Hackathon 2026</div>
+          <div class="card-body">
+            <h3>48-Hour Build Sprint</h3>
+            <p>Students prototyping solutions alongside industry mentors.</p>
+          </div>
+        </div>
+
+        <div class="card filter-item" data-category="graduation">
+          <div class="card-img" style="height:240px;">Commencement Ceremony</div>
+          <div class="card-body">
+            <h3>Class of 2026 Convocation</h3>
+            <p>Celebrating our graduating cohort with families and hiring partners.</p>
+          </div>
+        </div>
+
+        <div class="card filter-item" data-category="campus">
+          <div class="card-img" style="height:240px; background:#6b202f;">Main Auditorium</div>
+          <div class="card-body">
+            <h3>Keynote Lecture Hall</h3>
+            <p>Hosting weekly fireside chats with global founders and creators.</p>
+          </div>
+        </div>
+
+        <div class="card filter-item" data-category="workshops">
+          <div class="card-img" style="height:240px;">Typography & Print Lab</div>
+          <div class="card-body">
+            <h3>Visual Branding Intensive</h3>
+            <p>Hands-on workshop exploring editorial grids and color psychology.</p>
+          </div>
+        </div>
+
+        <div class="card filter-item" data-category="graduation">
+          <div class="card-img" style="height:240px; background:#6b202f;">Portfolio Showcase</div>
+          <div class="card-body">
+            <h3>Capstone Exhibition Day</h3>
+            <p>Graduates presenting live applications to industry recruiters.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">&copy; 2026 LM Academy. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
